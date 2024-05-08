@@ -1,4 +1,4 @@
-# Proyecto Final Móduio 3
+# Proyecto Final Módulo 3
 Este repositorio contiene dos archivos que representan dos versiones de una página web, cada una desarrollada para satisfacer diferentes requerimientos del cliente.
 
 ## Archivos
