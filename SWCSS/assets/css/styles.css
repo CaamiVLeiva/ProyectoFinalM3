@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Header*/
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #87ceea;
+    color: white;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+/* Estilo de Barra de Navegación */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Estilo enlaces de barra de navegación */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Link a la derecha */
+.navbar a.right {
+    float: right;
+}
+
+/* Modificando color hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Main column */
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Sidebar/left column */
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Contenedor que simula imagen */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    height: auto; /* Para que la altura de la imagen se ajuste automáticamente */
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
